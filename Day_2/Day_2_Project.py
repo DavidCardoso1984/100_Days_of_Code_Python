@@ -37,6 +37,7 @@ split_value=int(input("How many people to split the bill?"))
 # Calculando o valor que cada pessoa deve pagar:
 total_bill_tip = round(total_bill*(1+tip_value/100),2)
 total_bill_split = round(total_bill_tip/split_value,2)
+total_bill_split = "{:.2f}".format(total_bill_split) # Mostar sempre dois numeros depois da virgula.
 
 # Imprimindo o valor individual:
 print(f"Each person should pay: ${total_bill_split}")
