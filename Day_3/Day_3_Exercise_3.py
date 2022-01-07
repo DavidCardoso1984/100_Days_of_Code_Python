@@ -1,4 +1,4 @@
-# Day 3 - Exercise 2 - Leap Year (Ano bissexto)
+# Day 3 - Exercise 3 - Leap Year (Ano bissexto)
 
 
 #--------------------------------------------------------------------------------#
