@@ -81,3 +81,8 @@ else:
             print("You found the treasure!\nYou Win!")
         else:
             print("You chose a door that doesn't exist!\nGame Over.")
+
+
+# Observações e dicas da instrutora:
+
+# \antes de uma aspas simples ou duplas faz com que o Python ignore aquela aspas.
