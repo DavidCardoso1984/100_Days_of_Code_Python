@@ -49,7 +49,7 @@ fruit = ["Strawberries", "Nectarines", "Apples", "Grapes",
 vegetables = ["Spinach", "Kale", "Collard and mustard greens", 
                 "Bell and hot Peppers", "Celery", "Tomatoes"]
 
-# Colocando as duas listas dentro de uma lista:
+# Colocando as duas listas dentro de uma lista (nested lists ou listas alinhadas):
 dirty_dozen = [fruit, vegetables]
 
 # Imprimindo a lista dirty_dozen
