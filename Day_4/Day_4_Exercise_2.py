@@ -38,3 +38,10 @@ indice = length-1
 sorteado = random.randint(0,indice)
 print(f"{names[sorteado]} is going to buy the meal today!")
 
+# Uma opção para esta lição seria o uso da função choice()
+sorteado_choice = random.choice(names)
+print(f"{sorteado_choice} is going to buy the meal today!")
+
+linguagens = ["Ruby", "Python", "Java", "PHP", "C", "JavaScript"]
+sorteado_linguagens = random.choice(linguagens)
+print(sorteado_linguagens)
