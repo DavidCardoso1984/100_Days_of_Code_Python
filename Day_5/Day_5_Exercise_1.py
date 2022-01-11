@@ -53,3 +53,11 @@ mean_heights = int(round(sum_heights/num_heights,0))
 
 # Imprimindo o valor da média:
 print(mean_heights)
+
+# Lógico que essa atividade poderia ser resolvida usando as funções abaixo, porém o desafio era
+# não utilizar essas funções:
+
+soma_altura = sum(student_heights)
+qtd_estudantes = len(student_heights)
+media_altura = int(round(soma_altura/qtd_estudantes))
+print(media_altura)
