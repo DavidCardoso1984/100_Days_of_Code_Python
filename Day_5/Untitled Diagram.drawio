@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T22:50:29.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.3.0" etag="0Dyky8vk4oBv12hHev8i" type="github"><diagram id="9Sx9e0lH4R83RaoHTcMx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-18T23:22:18.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="-3gx_6O08zGJ2cECNP68" version="16.3.0" type="github">
+  <diagram id="9Sx9e0lH4R83RaoHTcMx" name="Page-1">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-1" target="fYzXpZhw4yzo6RV-ZloC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-1" value="Solicitar qtd de letras na senha.&lt;br&gt;(nr_letters)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-2" target="fYzXpZhw4yzo6RV-ZloC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-2" value="Solicitar qtd de símbolos.&lt;br&gt;(nr_symbols)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-4" target="fYzXpZhw4yzo6RV-ZloC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-4" value="Solicitar qtd de números.&lt;br&gt;(nr_numbers)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-6" target="fYzXpZhw4yzo6RV-ZloC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-6" value="Sortear uma das listas letters, numbers e symbols." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-8" target="fYzXpZhw4yzo6RV-ZloC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-8" target="fYzXpZhw4yzo6RV-ZloC-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-8" value="A lista sorteada tem qtd informada maior que zero?&lt;br&gt;(nr_letters/&lt;br&gt;nr_symbols/&lt;br&gt;nr_numbers)" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360.25" y="500" width="117.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-10" value="Sorteam um dos componentes das listas letters, numbers e symbols." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-12" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-14" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="520" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fYzXpZhw4yzo6RV-ZloC-16" target="fYzXpZhw4yzo6RV-ZloC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-16" value="Ainda existem listas com qtd informada maior que zero?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fYzXpZhw4yzo6RV-ZloC-18" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
