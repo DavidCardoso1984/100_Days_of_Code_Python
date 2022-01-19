@@ -31,7 +31,7 @@ password = []
 
 for nr in range(0 ,total_of_nr):
     # Sorteio de uma das três listas disponíveis:
-    list_of_nr_sort = random.randint(0, 2) # Ok
+    list_of_nr_sort = random.randint(0, 2)
     # Sorteando o número do componente da lista sorteada:
     list_of_nr_character_sort = random.randint(0, len(list_characterer[list_of_nr_sort])-1)
     # Selecionadno o componente da lista sorteada:
