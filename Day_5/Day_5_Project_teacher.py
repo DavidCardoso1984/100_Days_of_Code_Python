@@ -4,19 +4,13 @@ import random
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
-list_characterer = [letters, numbers, symbols]
+
 
 print("Welcome to the PyPassword Generator!")
 nr_letters = int(input("How many letters would you like in your password?\n"))
-print(nr_letters) 
-nr_symbols = int(input(f"How many symbols would you like?\n"))
-print(nr_letters)
 nr_numbers = int(input(f"How many numbers would you like?\n"))
-print(nr_numbers)
-list_of_nr = [nr_letters, nr_symbols, nr_numbers]
-print(list_of_nr)
-total_of_nr = nr_letters + nr_symbols + nr_numbers
-print(total_of_nr)
+nr_symbols = int(input(f"How many symbols would you like?\n"))
+
 
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
@@ -32,30 +26,49 @@ print(total_of_nr)
     # aqui pode-se criar uma lista com as listas;
 # Guardar cada um dos itens em uma lista ou variável.
 
-password = []
+# Eazy level
+# Definindo o password como uma string:
+password = ""
 
-for nr in range(0 ,total_of_nr):
-    # Sorteio de uma das três listas disponíveis:
-    list_of_nr_sort = random.randint(0, 2)
-<<<<<<< HEAD
-=======
-    print(list_of_nr_sort)
->>>>>>> 433bc592c4794bf6d2e516882b7fcc07c29543f8
-    # Sorteando o número do componente da lista sorteada:
-    list_of_nr_character_sort = random.randint(0, len(list_characterer[list_of_nr_sort])-1)
-    print(list_of_nr_character_sort)
-    # Selecionadno o componente da lista sorteada:
-    character_sort = list_characterer[list_of_nr_sort][list_of_nr_character_sort]
+# Sortenando as letras:
+for char in range(1 , nr_letters+1):
+    password += random.choice(letters)
 
-    # Checando se a lista selecionada contém a quantidade informada pelo usuário maior que zero e descontando
-    # em um esse valor.
-    print(list_of_nr[list_of_nr_sort])
-    if list_of_nr[list_of_nr_sort]>=0:
-        password.append(character_sort)
-        list_of_nr[list_of_nr_sort] -= 1
-    else:
-        total_of_nr += 1
+# Sortenando os números:
+for num in range(1 , nr_numbers+1):
+    password += random.choice(numbers)
 
-#if total_of_nr != 0:
+# Sortenando os simbolos:
+for sym in range(1 , nr_symbols+1):
+    password += random.choice(symbols)
 
+# Imprimindo o password:
 print(f"Here is the password: {password}")
+
+# Hard level
+
+#Definindo o password como uma lista:
+password_list = []
+
+# Sortenando as letras:
+for char in range(1 , nr_letters+1):
+    password_list.append(random.choice(letters))
+
+# Sortenando os números:
+for num in range(1 , nr_numbers+1):
+    password_list.append(random.choice(numbers))
+
+# Sortenando os simbolos:
+for sym in range(1 , nr_symbols+1):
+    password_list.append(random.choice(symbols))
+
+# Embaralhando os valores sorteados:
+random.shuffle(password_list)
+
+# Transformando a lista em uma string:
+password_char = ""
+for char in password_list:
+    password_char += char
+
+# Imprimindo o password:
+print(f"Here is the password: {password_char}")
