@@ -26,39 +26,49 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
     # aqui pode-se criar uma lista com as listas;
 # Guardar cada um dos itens em uma lista ou variável.
 
-
-
 # Eazy level
+# Definindo o password como uma string:
 password = ""
 
+# Sortenando as letras:
 for char in range(1 , nr_letters+1):
     password += random.choice(letters)
 
+# Sortenando os números:
 for num in range(1 , nr_numbers+1):
     password += random.choice(numbers)
 
+# Sortenando os simbolos:
 for sym in range(1 , nr_symbols+1):
     password += random.choice(symbols)
 
+# Imprimindo o password:
 print(f"Here is the password: {password}")
 
 # Hard level
 
+#Definindo o password como uma lista:
 password_list = []
 
+# Sortenando as letras:
 for char in range(1 , nr_letters+1):
     password_list.append(random.choice(letters))
 
+# Sortenando os números:
 for num in range(1 , nr_numbers+1):
     password_list.append(random.choice(numbers))
 
+# Sortenando os simbolos:
 for sym in range(1 , nr_symbols+1):
     password_list.append(random.choice(symbols))
 
+# Embaralhando os valores sorteados:
 random.shuffle(password_list)
 
+# Transformando a lista em uma string:
 password_char = ""
 for char in password_list:
     password_char += char
 
+# Imprimindo o password:
 print(f"Here is the password: {password_char}")
