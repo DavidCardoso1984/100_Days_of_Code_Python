@@ -37,10 +37,6 @@ password = []
 for nr in range(0 ,total_of_nr):
     # Sorteio de uma das três listas disponíveis:
     list_of_nr_sort = random.randint(0, 2)
-<<<<<<< HEAD
-=======
-    print(list_of_nr_sort)
->>>>>>> 433bc592c4794bf6d2e516882b7fcc07c29543f8
     # Sorteando o número do componente da lista sorteada:
     list_of_nr_character_sort = random.randint(0, len(list_characterer[list_of_nr_sort])-1)
     print(list_of_nr_character_sort)
