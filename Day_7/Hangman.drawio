@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-31T01:17:20.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="92m73fZvQDedBC-QSHZj" version="16.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-31T01:44:36.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Lo4gKBEGW-VPyo0W-D7X" version="16.3.0" type="github">
   <diagram id="7nkyQtZFQT6RnNRNCOgo" name="Page-1">
-    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1159" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,17 +10,17 @@
         <mxCell id="7czcxt_nkUIpRpXZpMWl-1" value="Inicio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-2" target="7czcxt_nkUIpRpXZpMWl-4">
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-2" target="7czcxt_nkUIpRpXZpMWl-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-2" value="Sortear uma palavra." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-2" value="Gerar uma palavra aleatória!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-4" target="7czcxt_nkUIpRpXZpMWl-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-4" value="Pedir ao usuário que digite uma letra" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-8" target="7czcxt_nkUIpRpXZpMWl-10">
           <mxGeometry relative="1" as="geometry" />
@@ -29,67 +29,90 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-8" value="A letra digitada existe na palavra?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="340" width="80" height="80" as="geometry" />
+          <mxGeometry x="370" y="450" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-10" target="7czcxt_nkUIpRpXZpMWl-16">
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-10" target="7czcxt_nkUIpRpXZpMWl-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-10" value="Exibir a letra escolhida pelo usuário e existentes da palavra sorteada." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-12" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="420" width="40" height="20" as="geometry" />
+          <mxGeometry x="310" y="460" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-13" target="7czcxt_nkUIpRpXZpMWl-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="680" y="380" />
-              <mxPoint x="680" y="600" />
-              <mxPoint x="440" y="600" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-13" target="7czcxt_nkUIpRpXZpMWl-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-13" value="Descontar do número total de tentativas e desenhar mais uma parte do Hangman." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-15" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="350" width="40" height="20" as="geometry" />
+          <mxGeometry x="450" y="460" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-16" target="7czcxt_nkUIpRpXZpMWl-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-16" target="7czcxt_nkUIpRpXZpMWl-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-16" target="7czcxt_nkUIpRpXZpMWl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="600" />
+              <mxPoint x="140" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-16" value="A palavra foi completa?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="560" width="80" height="80" as="geometry" />
+          <mxGeometry x="190" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-19" target="7czcxt_nkUIpRpXZpMWl-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="800" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-19" value="Informar que o usuário ganhou!" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-21" target="7czcxt_nkUIpRpXZpMWl-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="170" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-21" target="7czcxt_nkUIpRpXZpMWl-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-21" value="O usuário ainda tem tentativas?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="560" width="80" height="80" as="geometry" />
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-21" target="7czcxt_nkUIpRpXZpMWl-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="610" />
+              <mxPoint x="660" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-24" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="200" y="420" width="40" height="20" as="geometry" />
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-21" value="O usuário ainda tem tentativas?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-25" target="7czcxt_nkUIpRpXZpMWl-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-25" value="Informar que o usuário perdeu." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7czcxt_nkUIpRpXZpMWl-27" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="690" width="40" height="20" as="geometry" />
+          <mxGeometry x="570" y="650" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-28" value="sIM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="415" y="670" width="30" height="20" as="geometry" />
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-28" value="SIm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7czcxt_nkUIpRpXZpMWl-29" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="570" width="40" height="20" as="geometry" />
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7czcxt_nkUIpRpXZpMWl-30" target="7czcxt_nkUIpRpXZpMWl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-30" value="Gerar espaços na mesma quantidade da palavra sorteada." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-37" value="Informar o fim do jogo." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-41" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7czcxt_nkUIpRpXZpMWl-42" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="480" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
